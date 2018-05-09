@@ -40,7 +40,7 @@ int Game::start(int colNumber)
 int Game::testSituation()
 {
     bool isWon = checkWin();
-    if(isWon || freeBlocks == 0) // jesli wygrana lub remis
+    if(isWon || freeBlocks == 0)
     {
         if(freeBlocks == 0 && !isWon)
             return 2;
